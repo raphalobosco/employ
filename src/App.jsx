@@ -12,7 +12,7 @@ import {
 } from "firebase/firestore";
 
 function App() {
-  const [employer, setEmployer] = useState([]);
+  const [employer, setEmployer] = useState(["Rapha Lobosco", "Aline Daher"]);
   const [input, setInput] = useState("");
 
   // create employer
